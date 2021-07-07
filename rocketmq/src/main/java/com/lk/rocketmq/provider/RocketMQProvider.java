@@ -36,6 +36,7 @@ public class RocketMQProvider {
         }
         //关闭
         producer.shutdown();
+        
     }
 
 }
