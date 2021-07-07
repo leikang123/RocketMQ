@@ -29,6 +29,7 @@ public class ReTryMQProvider {
        System.out.println("消息queue：" + sendResult.getMessageQueue());
        System.out.println("消息offset：" + sendResult.getQueueOffset());
        System.out.println(sendResult);
+        // 生产者关闭
        producer.shutdown();
 }
 
