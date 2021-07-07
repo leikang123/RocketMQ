@@ -29,6 +29,7 @@ public class RocketMQConsumer {
         OffsetStore offsetStore = consumer.getDefaultMQPushConsumerImpl().getOffsetStore();
 
         System.out.println("打印队列:"+offsetStore);
+        
 
         consumer.registerMessageListener(new MessageListenerConcurrently() {
             public ConsumeConcurrentlyStatus consumeMessage(List<MessageExt> list, ConsumeConcurrentlyContext consumeConcurrentlyContext) {
