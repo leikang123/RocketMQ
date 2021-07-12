@@ -15,9 +15,12 @@
  * limitations under the License.
  */
 package org.apache.rocketmq.store.config;
-
+// Brocker的类
 public enum BrokerRole {
+    // 同步
     ASYNC_MASTER,
+    // 异步
     SYNC_MASTER,
+    // 发送
     SLAVE;
 }
