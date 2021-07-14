@@ -19,8 +19,9 @@ package org.apache.rocketmq.store.index;
 import java.nio.ByteBuffer;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicLong;
-
+// 索引头部类
 public class IndexHeader {
+    // 各种属性配置
     public static final int INDEX_HEADER_SIZE = 40;
     private static int beginTimestampIndex = 0;
     private static int endTimestampIndex = 8;
