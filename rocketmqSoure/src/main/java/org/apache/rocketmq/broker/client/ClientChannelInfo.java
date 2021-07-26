@@ -72,6 +72,8 @@ public class ClientChannelInfo {
         result = prime * result + version;
         return result;
     }
+    
+    
 
     @Override
     public boolean equals(Object obj) {
